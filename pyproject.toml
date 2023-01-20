@@ -1,0 +1,17 @@
+
+[tool.poetry]
+name = "homework-web-2"
+version = "0.1.0"
+description = ""
+authors = ["MaksymBratsiun <bratsyun_m@ukr.net>"]
+readme = "README.md"
+packages = [{include = "homework_web_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prompt-toolkit = "^3.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
