@@ -18,6 +18,10 @@
 
 # Install "Personal assistant"
 
+For Docker run:
+
+docker run --name assistant-bot -it "name_image"
+
 For installation in your system:
 
 1.  Use venv for creating virtual environment:
